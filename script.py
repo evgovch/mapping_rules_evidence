@@ -33,7 +33,7 @@ for mapping in gt['mappings']:
             found = True
         if '(' in pm:
             if sabo_node[-1] == ')' and \
-                    sabo_node.split('(')[0].replace('#', '.') == pm.split('(')[0]:
+                    sabo_node.split('(')[0].replace('#', '.').lower() == pm.split('(')[0].lower():
                 sabo_type = n['data']['labels']
                 if len(sabo_type) != 1:
                     print('BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB', sabo_node)
