@@ -1,0 +1,16 @@
+{
+    "asset": {
+        "Type": 66,
+        "UNKOWN": 33
+    },
+    "process": {
+        "Operation": 190,
+        "Type": 7,
+        "UNKOWN": 4
+    },
+    "data_store": {
+        "UNKOWN": 8,
+        "Type": 8
+    },
+    "external_entity": {}
+}
